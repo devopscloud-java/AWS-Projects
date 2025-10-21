@@ -1,0 +1,3 @@
+aws sns publish --topic-arn arn:aws:sns:us-east-1:251985476962:VPCE-Tutorial-Topic --message "Hello, this is a test message from Amazon Linux!" 
+  
+aws sns publish --region us-east-1 --topic-arn arn:aws:sns:us-east-1:251985476962:VPCE-Tutorial-Topic --message "welcome to project3 SNS"
