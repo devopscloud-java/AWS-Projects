@@ -1,0 +1,22 @@
+sudo apt-get update
+sudo apt install apache2
+cd /var/www/html
+sudo rm -r index.html
+sudo nano index.php
+paste the code (ctrl +s to save and ctrl + x to exit)
+Change the endpoint in the code
+copy the ip of instance and paste it in web-browser
+sudo add-apt-repository ppa:ondrej/php
+sudo apt install php5.6
+sudo apt install php5.6-mysqli
+sudo apt install mysql-client//sudo apt install mysql-client -y
+sudo mysql -h <endpoint of db> -u <intel> - p<intel123>/or -p
+Database will be connected
+// Database Commands
+show databases;
+create database intel;
+use intel;
+create table data(firstname varchar(50), email varchar (50));
+select * from data;/put some data in that opened website then again put select * from data;
+
+sudo mysql -h intel.cs9ioosm0qea.us-east-1.rds.amazonaws.com -u intel -p,
