@@ -2,7 +2,7 @@
 Description about AWS capstone projects
 -----------------------------------------------
 
-1.Deploying A Multi Tier Website using AWS EC
+1.Deploying A Multi Tier Website using AWS EC2
 
 
 
